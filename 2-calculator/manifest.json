@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "storage test",
+    "description": "使用get和set设置storage，设置是有'提醒',添加选项页",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_page":"options.html",
+    "permissions": [
+        "storage",
+        "notifications"
+    ]
+}

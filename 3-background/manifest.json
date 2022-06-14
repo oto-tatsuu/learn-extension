@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "background",
+    "description": "在练习2的基础上添加context menu,了解background script 了解badges",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_page":"options.html",
+    "permissions": [
+        "storage",
+        "notifications",
+        "contextMenus"
+    ],
+
+    "background": {
+        "service_worker": "eventPage.js"
+    }
+}

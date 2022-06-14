@@ -48,9 +48,13 @@
 ![](https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/ku5Z8MMssgw6MKctpJVI.png?auto=format)
 在浏览器右上部的插件菜单添加一个工具图标，并为其添加弹窗
 [demo](./add-toolbar/)
-![](./add-toolbar/screenshot/screenshot01.png)
+![](./1-add-toolbar/screenshot/screenshot01.png)
 ### Service Worker
 
 ### UI elements
+#### popup
+#### options page
+
 ### Content script
 ### Option Page
+### 
