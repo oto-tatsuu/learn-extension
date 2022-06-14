@@ -1,0 +1,14 @@
+{
+  "name": "My Extension -- add toolbar",
+  "description": "A nice little demo extension.",
+  "version": "2.1",
+  "manifest_version": 3,
+  "icons":{
+    "16":"./icons/logo.png",
+    "48":"./icons/logo.png",
+    "128":"./icons/logo.png"
+  },
+  "action":{
+    "default_popup":"popup.html"
+  }
+}
