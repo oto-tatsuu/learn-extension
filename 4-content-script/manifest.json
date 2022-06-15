@@ -1,0 +1,22 @@
+{
+    "name": "learn page action",
+    "manifest_version": 3,
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/logo.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
